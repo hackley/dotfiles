@@ -11,3 +11,5 @@ alias ll="ls -1Gp"
 alias fucking="sudo"
 alias go="vagrant ssh"
 alias findprocess="ps aux | grep"
+
+cd ~/Code
