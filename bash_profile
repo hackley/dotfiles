@@ -12,4 +12,4 @@ alias fucking="sudo"
 # alias go="vagrant ssh dev"
 alias findprocess="ps aux | grep"
 
-cd ~/Code
+cd ~/code
