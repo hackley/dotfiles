@@ -25,3 +25,4 @@ set scrolloff=5 "start scrolling when the cursor is five lines away from the edg
 "set cursorline "highlight the entire line that your cursor is on
 
 command Find CtrlP
+command Tree NERDTree
