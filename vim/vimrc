@@ -1,7 +1,27 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+filetype on
+filetype plugin on
+filetype indent on
 syntax on
-set tabstop=4
-set softtabstop=4
+set smartindent
+set hlsearch
 set number
+highlight LineNr ctermfg=darkgrey
+
+"delete all trailing space
+autocmd BufWritePre * :%s/\s\+$//e
+
+set mouse=a "enables the mouse
+set history=1000 "more undo'ing
+set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_ "show specific invisible characters
+set incsearch "incrementally search/highlight as you're typing
+set scrolloff=5 "start scrolling when the cursor is five lines away from the edge of screen
+"set cursorline "highlight the entire line that your cursor is on
+
+command Find CtrlP
