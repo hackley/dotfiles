@@ -4,3 +4,9 @@
 [submodule "vim/bundle/Spacegray.vim"]
 	path = vim/bundle/Spacegray.vim
 	url = git://github.com/ajh17/Spacegray.vim.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
