@@ -3,7 +3,7 @@
 	url = https://github.com/mxw/vim-jsx.git
 [submodule "vim/bundle/Spacegray.vim"]
 	path = vim/bundle/Spacegray.vim
-	url = git://github.com/ajh17/Spacegray.vim.git
+	url = https://github.com/ajh17/Spacegray.vim.git
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
