@@ -6,12 +6,12 @@
 cd ~/
 
 # Vim
-ln -s path/to/dotfiles/vim .vim
-ln -s path/to/dotfiles/vim/vimrc .vimrc
-git submodule update --init
+sudo ln -s code/dotfiles/vim .vim
+sudo ln -s code/dotfiles/vim/vimrc .vimrc
+cd code/dotfiles && git submodule update --init
 
 # Bash Profile
-ln -s path/to/dotfiles/bash_profile .bash_profile
+sudo ln -s code/dotfiles/bash_profile .bash_profile
 ```
 
 ### Adding a Vim plugin
