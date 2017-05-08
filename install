@@ -1,0 +1,14 @@
+echo 'installing dotfiles, etc...'
+
+BASEDIR=$(dirname "$0")
+
+rm ~/.bash_profile
+ln -s ${BASEDIR}/bash_profile ~/.bash_profile
+
+rm -r ~/.vim
+ln -s ${BASEDIR}/vim ~/.vim
+
+rm ~/.vimrc
+ln -s ${BASEDIR}/vim/vimrc ~/.vimrc
+
+cd ${BASEDIR} && git submodule update --init

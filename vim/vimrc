@@ -29,5 +29,4 @@ command Tree NERDTree
 
 let g:user_emmet_leader_key='<C-Z>'
 
-set background=dark
-colorscheme solarized
+colorscheme base16-default-dark
