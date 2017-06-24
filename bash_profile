@@ -11,7 +11,10 @@ alias ll="ls -1Gp"
 alias fucking="sudo"
 # alias go="vagrant ssh dev"
 alias findprocess="ps aux | grep"
+alias calc="insect"
 
 alias dc="docker-compose"
+alias rc="dc run --rm app rails c"
+alias rakeee="dc run --rm app rake"
 
 cd ~/Code
