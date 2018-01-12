@@ -3,15 +3,10 @@
 ### Setup:
 
 ```bash
-cd ~/
-
-# Vim
-sudo ln -s code/dotfiles/vim .vim
-sudo ln -s code/dotfiles/vim/vimrc .vimrc
-cd code/dotfiles && git submodule update --init
-
-# Bash Profile
-sudo ln -s code/dotfiles/bash_profile .bash_profile
+cd ~/Code
+[clone dotfiles repo]
+cd ~
+./Code/dotfiles/install
 ```
 
 ### Adding a Vim plugin
