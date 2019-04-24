@@ -29,4 +29,6 @@ command Tree NERDTree
 
 let g:user_emmet_leader_key='<C-Z>'
 
-colorscheme base16-default-dark
+colorscheme spacegray
+let g:spacegray_use_italics = 1
+let g:spacegray_low_contrast = 1
