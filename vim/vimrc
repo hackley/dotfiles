@@ -34,5 +34,7 @@ colorscheme spacegray
 let g:spacegray_use_italics = 1
 let g:spacegray_low_contrast = 1
 
-let g:ctrlp_max_files=20000
+let g:ctrlp_max_files=0
 let g:ctrlp_custom_ignore='.git$|\tmp$|node_modules$'
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|git|svn|DS_Store))$'
+let g:ctrlp_max_depth=40
