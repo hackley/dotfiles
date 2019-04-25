@@ -35,4 +35,4 @@ let g:spacegray_use_italics = 1
 let g:spacegray_low_contrast = 1
 
 let g:ctrlp_max_files=20000
-let g:ctrlp_custom_ignore='.git$|\tmp$'
+let g:ctrlp_custom_ignore='.git$|\tmp$|node_modules$'
