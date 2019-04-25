@@ -23,6 +23,7 @@ set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_ "show specific invisible characters
 set incsearch "incrementally search/highlight as you're typing
 set scrolloff=5 "start scrolling when the cursor is five lines away from the edge of screen
 "set cursorline "highlight the entire line that your cursor is on
+:set backupcopy=yes "fix live reload issues with webpack
 
 command Find CtrlP
 command Tree NERDTree
