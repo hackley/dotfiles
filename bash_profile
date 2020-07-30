@@ -17,4 +17,3 @@ alias dc="docker-compose"
 alias rc="dc run --rm app rails c"
 alias rakeee="dc run --rm app rake"
 
-cd ~/Code
